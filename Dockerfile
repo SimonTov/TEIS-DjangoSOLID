@@ -1,5 +1,5 @@
 # 1. Imagen base oficial de Python ligera
-FROM python:3.11-slim
+FROM python:3.12-slim
 
 # 2. Evitamos archivos .pyc y buffer de logs
 ENV PYTHONDONTWRITEBYTECODE 1
